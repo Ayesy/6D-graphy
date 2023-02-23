@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "plot.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/plot",
+      "dest": "/plot.py"
+    }
+  ]
+}
